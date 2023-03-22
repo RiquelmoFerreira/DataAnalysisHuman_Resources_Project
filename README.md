@@ -23,6 +23,7 @@ The project is an analysis of the relation between Years of Experience versus Em
 
 # Run the Project
 Prerequisites:
+- Python 3.11.0 or superior
 - Jupyter Notebook
 - Numpy
 - Pandas
