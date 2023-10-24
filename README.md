@@ -1,3 +1,48 @@
+# Português:
+# Análise da relação entre os Anos de Experiência X Salário Anual
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RiquelmoFerreira/DataAnalysisHuman_Resources_Project/blob/main/License)
+
+# Sobre o Projeto
+
+Esse projeto foi feito durante o treino prático do curso de Python para Análise de Dados conduzido por DataViking e o arquivo está disponível nos idiomas: Português (Projeto_Recursos_Humanos.ipynb) e Inglês (Human_Resources_Project.ipynb)
+
+Esse projeto é uma análise da relação entre os Anos de Experiência X Salário Anual do empregado, nesse projeto foram usadas a linguagem Python e suas Bibliotecas Numpy, Pandas, Matplotlib e Seaborn no ambiente do Jupyter Notebook.
+
+O Dataset possui os dados dos Anos de Experiêcnia e Salário em dólares dos funcionários. Iremos tentar entender se uma quantidade maior de anos de experiência tem correlação com um maior salário. 
+
+Primeiramente realizamos uma análise do valor dos salários e pra isso plotamos um gráfico KDE e podemos analisar que os dados possuem uma distribuição assimétrica bimodal, com uma parte estando concentrada em torno de 5000 dólares e outra parte concetrada próxima aos 11000 dólares. Após isso analisamos também os anos de experiência com um gráfico KDE e chegamos a uma conclusão parecida, também temos uma distribuição assimétrica bimodal com uma parte concentrada em torno de 2 anos e meio e outra parte concetrada próxima dos 10 anos. Depois plotamos dois gráficos Boxplot para analisar essas colunas, o primeiro Boxplot foi do Salário e possuía um Limite Inferior próximo aos 3700 dólares, o Primeiro Quartil próximo aos 5600 dólares, Mediana em torno de 6500 dólares, Terceiro Quartil em torno de 10500 dólares e o Limite Superior próximo aos 12200 dólares e não tivemos ocorrência de Outliers. O segundo Boxplot foi o de Anos de Experiência e tinha um Limite Inferior próximo de 1 ano, Primeiro Quartil próximo de 3 anos, Mediana próxima a 4 anos e meio, Terceiro Quartil próximo a 7 anos e meio e Limite Superior de 10 anos e meio e também não tivemos ocorrência de Outliers. Em seguida, plotamos um gráfico Scatterplot e um gráfico de Regressão Linear e podemos analisar que os dados tem uma correlação linear, quando os anos de experiência aumentam o salário também aumenta em relação a esse dado. Por fim, para verificar isso usamos a Correlação de Pearson e utilizamos um Heatmap para melhor visualização e podemos analisar que os dados possuem uma forte correlação (0.98).
+
+## Visão Geral do Projeto
+![VisaoGeral](https://github.com/RiquelmoFerreira/Images/blob/main/15.png)
+
+## Visão Geral do Gráfico
+![GraficoGeral](https://github.com/RiquelmoFerreira/Images/blob/main/16.png)
+
+# Tecnologias e Bibliotecas
+- Python para Análise de Dados
+- Numpy
+- Pandas
+- Seaborn
+- Matplotlib
+
+# Rode o Projeto:
+Pré-Requisitos:
+- Python 3.11.0 ou superior
+- Jupyter Notebook
+- Numpy
+- Pandas
+- Seaborn
+- Matplotlib
+- Power Point
+
+# Autor
+Riquelmo Afonso Avelar Ferreira
+
+https://www.linkedin.com/in/riquelmo-afonso-avelar-ferreira-df5183/
+
+#
+
 # English:
 # Years Experience x Salary Analysis Project
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RiquelmoFerreira/DataAnalysisHuman_Resources_Project/blob/main/License)
@@ -41,49 +86,6 @@ Riquelmo Afonso Avelar Ferreira
 
 https://www.linkedin.com/in/riquelmo-afonso-avelar-ferreira-df5183/?locale=en_US
 #
-
-# Português:
-# Análise da relação entre os Anos de Experiência X Salário Anual
-
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RiquelmoFerreira/DataAnalysisHuman_Resources_Project/blob/main/License)
-
-# Sobre o Projeto
-
-Esse projeto foi feito durante o treino prático do curso de Python para Análise de Dados conduzido por DataViking e o arquivo está disponível nos idiomas: Português (Projeto_Recursos_Humanos.ipynb) e Inglês (Human_Resources_Project.ipynb)
-
-Esse projeto é uma análise da relação entre os Anos de Experiência X Salário Anual do empregado, nesse projeto foram usadas a linguagem Python e suas Bibliotecas Numpy, Pandas, Matplotlib e Seaborn no ambiente do Jupyter Notebook.
-
-O Dataset possui os dados dos Anos de Experiêcnia e Salário em dólares dos funcionários. Iremos tentar entender se uma quantidade maior de anos de experiência tem correlação com um maior salário. 
-
-Primeiramente realizamos uma análise do valor dos salários e pra isso plotamos um gráfico KDE e podemos analisar que os dados possuem uma distribuição assimétrica bimodal, com uma parte estando concentrada em torno de 5000 dólares e outra parte concetrada próxima aos 11000 dólares. Após isso analisamos também os anos de experiência com um gráfico KDE e chegamos a uma conclusão parecida, também temos uma distribuição assimétrica bimodal com uma parte concentrada em torno de 2 anos e meio e outra parte concetrada próxima dos 10 anos. Depois plotamos dois gráficos Boxplot para analisar essas colunas, o primeiro Boxplot foi do Salário e possuía um Limite Inferior próximo aos 3700 dólares, o Primeiro Quartil próximo aos 5600 dólares, Mediana em torno de 6500 dólares, Terceiro Quartil em torno de 10500 dólares e o Limite Superior próximo aos 12200 dólares e não tivemos ocorrência de Outliers. O segundo Boxplot foi o de Anos de Experiência e tinha um Limite Inferior próximo de 1 ano, Primeiro Quartil próximo de 3 anos, Mediana próxima a 4 anos e meio, Terceiro Quartil próximo a 7 anos e meio e Limite Superior de 10 anos e meio e também não tivemos ocorrência de Outliers. Em seguida, plotamos um gráfico Scatterplot e um gráfico de Regressão Linear e podemos analisar que os dados tem uma correlação linear, quando os anos de experiência aumentam o salário também aumenta em relação a esse dado. Por fim, para verificar isso usamos a Correlação de Pearson e utilizamos um Heatmap para melhor visualização e podemos analisar que os dados possuem uma forte correlação (0.98).
-
-## Visão Geral do Projeto
-![VisaoGeral](https://github.com/RiquelmoFerreira/Images/blob/main/15.png)
-
-## Visão Geral do Gráfico
-![GraficoGeral](https://github.com/RiquelmoFerreira/Images/blob/main/16.png)
-
-# Tecnologias e Bibliotecas
-- Python para Análise de Dados
-- Numpy
-- Pandas
-- Seaborn
-- Matplotlib
-
-# Rode o Projeto:
-Pré-Requisitos:
-- Python 3.11.0 ou superior
-- Jupyter Notebook
-- Numpy
-- Pandas
-- Seaborn
-- Matplotlib
-- Power Point
-
-# Autor
-Riquelmo Afonso Avelar Ferreira
-
-https://www.linkedin.com/in/riquelmo-afonso-avelar-ferreira-df5183/
 
 
  
